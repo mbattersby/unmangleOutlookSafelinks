@@ -1,0 +1,27 @@
+# entered in YAML format for convenience of editing.
+# convert to JSON using
+#   snap install yq
+#   yq eval -oj manifest.yml > manifest.json
+manifest_version: 2
+name: Unmangle Outlook Safelinks
+codename: unmangleOutlookSafelinks
+
+description: |
+     DESCRIPTION WILL BE COPIED FROM README.md
+version: 3.1.0
+author: John Pye
+applications:
+  gecko: 
+    id: unmangleOutlookSafelinks@havekes.eu
+    strict_min_version: "78.4"
+icons:
+  64: images/icon64.png
+  48: images/icon48.png
+background:
+  scripts:
+    - background.js
+permissions:
+  - messagesModify
+  - messagesRead
+
+# vim: ts=2:sw=2:et:syntax=yaml

@@ -1,3 +1,9 @@
+# IMPORTANT
+
+This repo is dead, I neither use nor maintain is any more. For a maintained version of the plugin please see
+
+https://github.com/phavekes/unmangleOutlookSafelinks
+
 # Unmangle Outlook Safelinks
 
 Thunderbird plugin to show unmangled original URLs in place of mangled 'Safe Links' from the Office365 mail server.
